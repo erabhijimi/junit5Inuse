@@ -5,16 +5,16 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class FactorialUsingRecursionTest {
-    private static FactorialUsingRecursion factorialUsingRecursion = null;
+class BasicProgramsTest {
+    private static BasicPrograms basicPrograms = null;
     @BeforeAll
     static void init(){
-        factorialUsingRecursion = new FactorialUsingRecursion();
+        basicPrograms = new BasicPrograms();
     }
     @Test
     void testFactorial(){
         int expected =24;
-        int actual = factorialUsingRecursion.factorial(4);
+        int actual = basicPrograms.factorial(4);
         assertEquals(expected,actual,"Running Factorial with correct input");
     }
 

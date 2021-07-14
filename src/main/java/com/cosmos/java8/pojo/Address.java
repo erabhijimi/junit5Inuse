@@ -1,13 +1,13 @@
-package com.cosmos.java8;
+package com.cosmos.java8.pojo;
 
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
+@Builder
+@ToString
 public class Address {
     private Long addressId;
     private String line;

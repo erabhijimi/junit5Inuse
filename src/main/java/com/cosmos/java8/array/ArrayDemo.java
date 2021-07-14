@@ -1,4 +1,4 @@
-package com.cosmos.java8;
+package com.cosmos.java8.array;
 
 //Let us learn about Java 8 Stream Class and Parallel Sorting Method.
 //Stream improves the readability as well as the efficiency of arrays.

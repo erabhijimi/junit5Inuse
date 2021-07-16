@@ -3,7 +3,7 @@ package com.cosmos.threads;
 public class ThreadClassImplementingRunnable implements Runnable{
     private double no =0;
     public ThreadClassImplementingRunnable(int i){
-            no=Math.random();
+            this.no=i;
     }
 
     public ThreadClassImplementingRunnable() {
@@ -12,6 +12,7 @@ public class ThreadClassImplementingRunnable implements Runnable{
 
     @Override
     public void run() {
-        System.out.println("Thread is running task to print this :"+no+" this random number "+Thread.currentThread());
+        System.out.println("Thread is running task to print this :"+this
+                .no+" this random number "+Thread.currentThread());
     }
 }

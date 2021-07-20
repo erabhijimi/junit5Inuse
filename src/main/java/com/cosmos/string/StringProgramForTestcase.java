@@ -1,6 +1,6 @@
 package com.cosmos.string;
 
-public class StringProgram {
+public class StringProgramForTestcase {
     //1.Reverse a String
     public String reverseString(String str){
         char[] chs =str.toCharArray();

@@ -6,10 +6,10 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class ArrayDemoTest {
-    private static ArrayDemo arrayDemo = null;
+    private static ArrayDemoForTestCase arrayDemo = null;
     @BeforeAll
     static void init(){
-        arrayDemo = new ArrayDemo();
+        arrayDemo = new ArrayDemoForTestCase();
     }
     @Test
     public void testFindClosest(){

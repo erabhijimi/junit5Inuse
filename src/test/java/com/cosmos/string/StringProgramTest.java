@@ -1,16 +1,16 @@
-package string;
+package com.cosmos.string;
 
-import com.cosmos.string.StringProgram;
+import com.cosmos.string.StringProgramForTestcase;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 class StringProgramTest {
-    private static StringProgram stringProgram=null;
+    private static StringProgramForTestcase stringProgram=null;
     @BeforeAll
     static void init(){
-        stringProgram=new StringProgram();
+        stringProgram=new StringProgramForTestcase();
     }
     @Test
     public void testReverseString(){

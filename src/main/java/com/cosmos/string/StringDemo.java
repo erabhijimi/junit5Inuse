@@ -1,11 +1,9 @@
-package interview.tcsprep;
+package com.cosmos.string;
 
 import java.util.HashMap;
-import java.util.LinkedHashMap;
 import java.util.Map;
-import java.util.stream.Collectors;
 
-public class MapDemo {
+public class StringDemo {
     public static void main(String[] args) {
         String s = "abcaba";
         Map<Character, Integer> freqs = new HashMap<>();
@@ -14,6 +12,6 @@ public class MapDemo {
                     1,                  // value to merge
                     Integer::sum);      // counting
         }
-
+        System.out.println("Frequencies:\n" + freqs);
     }
 }

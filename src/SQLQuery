@@ -1,0 +1,5 @@
+select distinct
+id,name,course
+from STUDENT inner join COURSE on STUDENT.id=COURSE.id
+where course in ('PHYSICS','MATHS')
+order by firstName,lastName;
